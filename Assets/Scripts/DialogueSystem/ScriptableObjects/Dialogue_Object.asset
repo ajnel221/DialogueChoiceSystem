@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220a924baffb83b498280c79266f1443, type: 3}
+  m_Name: Dialogue_Object
+  m_EditorClassIdentifier: 
+  dialogueSegments:
+  - dialogueText: Hello
+    dialogueDisplayTime: 3
+    dialogueChoices: []
+  - dialogueText: How are you?
+    dialogueDisplayTime: 2
+    dialogueChoices:
+    - dialogueChoice: I'm Fine Thans and Yourself
+      followOnDialogue: {fileID: 11400000, guid: 4b8bc0dc8d3de4e4d848b4c58024066b,
+        type: 2}
+      spawnPrefabTest: {fileID: 5463149526896319980, guid: ca14f12d8b8bf9446a8103af0da0353c,
+        type: 3}
+    - dialogueChoice: Leave Me Alone
+      followOnDialogue: {fileID: 11400000, guid: 8f228c21f9923cb4bbc5c92e0c9858b6,
+        type: 2}
+      spawnPrefabTest: {fileID: 5463149526896319980, guid: 4e1476ea173e7ac4f9202c3dcc4e69b3,
+        type: 3}
+  endDialogue: {fileID: 0}

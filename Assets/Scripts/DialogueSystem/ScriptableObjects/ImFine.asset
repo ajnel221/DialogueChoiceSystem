@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 220a924baffb83b498280c79266f1443, type: 3}
+  m_Name: ImFine
+  m_EditorClassIdentifier: 
+  dialogueSegments:
+  - dialogueText: Would you like to talk see what items I have for sale?
+    dialogueDisplayTime: 1
+    dialogueChoices:
+    - dialogueChoice: Yes
+      followOnDialogue: {fileID: 11400000, guid: 6f434ad493af0aa41b8640371ca8c840,
+        type: 2}
+      spawnPrefabTest: {fileID: 5463149526896319980, guid: ca14f12d8b8bf9446a8103af0da0353c,
+        type: 3}
+    - dialogueChoice: No
+      followOnDialogue: {fileID: 11400000, guid: 044595e909c95d640a370e1063b9d94a,
+        type: 2}
+      spawnPrefabTest: {fileID: 5463149526896319980, guid: 4e1476ea173e7ac4f9202c3dcc4e69b3,
+        type: 3}
+  endDialogue: {fileID: 0}
