@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSegments:
   - dialogueText: Would you like to talk see what items I have for sale?
-    dialogueDisplayTime: 1
+    dialogueDisplayTime: 5
     dialogueChoices:
     - dialogueChoice: Yes
       followOnDialogue: {fileID: 11400000, guid: 6f434ad493af0aa41b8640371ca8c840,

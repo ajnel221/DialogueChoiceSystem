@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueSegments:
   - dialogueText: Okay Whatever you say...
-    dialogueDisplayTime: 2
+    dialogueDisplayTime: 5
     dialogueChoices: []
   endDialogue: {fileID: 0}
